@@ -1,0 +1,21 @@
+.text-ecdo {
+    color: #f86942 !important;
+}
+
+#header img {
+    width: 80px;
+}
+
+#main .carousel-inner img {
+    background: #f86942;
+    max-height: 45vh;
+    object-fit: contain;
+}
+
+#footer {
+    background:#333333;
+}
+
+#footer a {
+    color: white;
+}
