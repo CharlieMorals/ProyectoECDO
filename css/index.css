@@ -7,10 +7,39 @@
 }
 
 #main .carousel-inner img {
-    background: #f86942;
+    /* background: #f86942; */
     max-height: 45vh;
     object-fit: contain;
 }
+
+.card-img-top img {
+    object-fit: scale-down;
+    max-height: 30%;
+}
+
+#description {
+    /* background-color: #333333; */
+    background-color: #f86942;
+    color: white;
+}
+
+#description img {
+    max-width: 100%;
+    object-fit: contain;
+}
+#carousel {
+    position: relative;
+}
+
+/* #carousel .overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    rigth: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white; 
+} */
 
 #footer {
     background:#333333;
